@@ -1,0 +1,161 @@
+
+
+/*----*/
+
+
+
+
+
+.text-center{
+    color: white;
+}
+
+
+
+.bg-black{
+    background-color: white;
+}
+
+
+
+.overlay{
+     background-color: rgba(0, 0, 0, 0.5);
+       height: 100%;
+  padding: 60px 0;
+}
+
+h1{
+        margin-left: 30px;
+}
+
+p{
+        margin-left: 30px;
+}
+
+.btn-transparent{
+        margin-left: 30px;
+}
+
+
+.banner{
+    background-image: url(../images/istockphoto-517188688-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+      background-position: center;
+ 
+}
+
+.btn-transparent{
+    background-color: transparent;
+    padding: 10px 40px;
+        border-color: white;
+    color: white;
+}
+
+hr{
+    width: 7%;
+     margin-left: 40px;
+}
+
+
+
+label{
+    
+margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+   border: none;
+  background: #d3d3d399;
+
+         
+            
+
+}
+
+.navbar {
+    width: 96%;
+      background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px 40px;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: orange;
+}
+
+.nav-links {
+  display: inline-block;
+  float: right;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+
+.left-panel{
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+
+.right-panel {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+
+
+.left-panel {
+  width: 60%;
+  color: white;
+}
+
+.right-panel {
+    width: 35%;
+    background: white;
+    padding: 20px;
+  
+}
+
+
+.btn-str-color {
+  width: 100%;
+  padding: 12px;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form .highlight{
+    color: orange;
+}
+
+.left-panel h1 span {
+    color: orange;
+}
+

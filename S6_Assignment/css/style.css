@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+        justify-content: space-between;
+    list-style: none;
+     color: #fff;
+}
+
+ .nav-links a {
+        justify-content: space-between;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+            position: relative;
+        }
+
+.hero-content{
+    background-image: url(../images/Cool_wallpaper.png);
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+      background-position: center;
+
+  
+}
+
+.hero-text {
+    text-align:left;
+    padding: 50px 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.search-box {
+  margin-left: auto; 
+  background: #f4f4f4;
+  border-radius: 20px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  position: relative;
+}
+
+.search-box i {
+  margin-right: 8px;
+  color: #888;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+}
+
+.categories {
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+.categories button {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #333;
+}
+
+.categories button.active:hover {
+  background-color: #0a0a23;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.products{
+        display: flex;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product {
+        margin: 20px;
+    padding: 20px;
+}
+
+.product img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.link-more {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.link-more a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0a0a23;
+}
+
+
+.services {
+  
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 13px;
+}
+.service-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+     display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.service{
+     position: relative;
+  height: 250px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.overlay-text {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.overlay-text:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.about-us {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    /*
+    border-radius: 10px; 
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+     */
+}
+
+
+.about {
+    display: flex
+;
+    align-items: baseline;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.about img {
+    width: 36%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-parh{
+    width: 60%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.our-team{
+    margin: 30px;
+}
+
+.team-grid{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.team-member {
+    margin: 10px;
+    text-align: center;
+}
+
+.content  {
+    padding: 20px;
+    margin: 20px;
+      display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+
+
+}
+
+.text{
+    padding-bottom: 10px;
+}
+
+
+.btn-read {
+    display: inline-block;
+    margin: 16px 1px;
+    padding: 10px 14px;
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.image  {
+  padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+     display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
