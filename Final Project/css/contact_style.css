@@ -282,4 +282,32 @@
     text-decoration: underline;
 }
 
+.input-icon {
+  border: none;
+  border-bottom: 2px solid #0d6efd;
+  border-radius: 0;
+  padding-left: 0.5rem;
+  box-shadow: none;
+}
+
+.input-icon:focus {
+  border-bottom: 2px solid #084298;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-input {
+    border: none;
+    border-bottom: 2px solid #999;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    transition: border-color 0.3s;
+  }
+
+  .custom-input:focus {
+    outline: none;
+    border-bottom: 2px solid #0056b3; 
+    box-shadow: none;
+  }
 
