@@ -12,3 +12,13 @@ function initMap() {
   });
   new google.maps.Marker({ position: office, map });
 }
+
+
+
+/*    */
+
+
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Message sent successfully!');
+  });
