@@ -191,3 +191,95 @@
     min-height: 220px;
   }
 }
+
+
+.talk-us {
+  background-color: #0080ff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.talk-icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       margin: 20px 30px;
+    padding: 20px 30px;
+}
+.talk-icon::after {
+    position: absolute;
+    content: "\f105";
+    left: 12%;
+    font-size: 100px;
+    font-family: Flaticon;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-45%);
+    opacity: 0.3;
+ 
+}
+
+.talk-us .talk-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+      display: flex;
+    justify-content:space-between;
+  
+}
+
+.talk-us{
+    display: flex;
+
+  
+}
+
+.btn-custom {
+  background-color: #0d6efd;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  border: none;
+  text-transform: uppercase;
+  
+}
+
+.btn-custom:hover {
+  background-color: #0b5ed7;
+  color: #fff;
+}
+
+.footer .foot-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 10px;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer .badge {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
